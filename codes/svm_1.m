@@ -92,5 +92,18 @@ C =[zeros(3,1)];
 g= -ones(size(A,1)+size(B,1),1);
 d= -ones(size(A,1)+size(B,1),1); %same as g
 
-quadprog(Q,C,D,g);
+%quadprog(Q,C,D,g);
+P_Solution=quadprog(Q,C,D,g);
+w = P_Solution(1:2) ;
+b = P_Solution(3) ;
+
+%% Plotting the Margins and seperalble line
+xx = 0:0.1:10 ;
+uu = (-w(1)/w(2)).*xx - b/w(2);
+vv = (-w(1)/w(2)).*xx + (1-b)/w(2);
+vvv = (-w(1)/w(2)).*xx + (-1-b)/w(2);
+plot(A(:,1),A(:,2),'bo',B(:,1),B(:,2),'ro',xx,uu,'k-',xx,vv,'b-',xx,vvv,'r-','Linewidth',1.5)
+axis([0 10 0 10])
+title('Optimal separating MARGINS')
+
 
