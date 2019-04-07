@@ -22,11 +22,14 @@
 
 ### Run the gradient method for solving the following problems
 #### [prob: 1]
+- code: gradient_Unconstrained.m
+
 <p align="center">
   <img src="https://github.com/astro7x/OptMat/blob/master/imgs/grad-3.jpg?raw=true"/>
 </p>
 
 #### [prob: 2]
+- code: gradient_UnconstrainedFitting.m
 
 Consider the following data fitting problem: given the experimental data in fitting.txt, find the best approximating polynomial of degree 3 w.r.t. the Euclidean norm.
 Solve the problem by means of the gradient method starting from:
