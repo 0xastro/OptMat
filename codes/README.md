@@ -20,8 +20,12 @@
   <img src="https://github.com/astro7x/OptMat/blob/master/imgs/grad-2.jpg?raw=true"/>
 </p>
 
-### We Run the gradient method for solving the problem
-
+### Run the gradient method for solving the following problems
+#### [1]
 <p align="center">
   <img src="https://github.com/astro7x/OptMat/blob/master/imgs/grad-3.jpg?raw=true"/>
+</p>
+#### [2]
+<p align="center">
+  <img width="600"src="https://github.com/astro7x/OptMat/blob/master/imgs/prob2.png?raw=true"/>
 </p>
