@@ -21,11 +21,11 @@
 </p>
 
 ### Run the gradient method for solving the following problems
-#### [1]
+#### [prob: 1]
 <p align="center">
   <img src="https://github.com/astro7x/OptMat/blob/master/imgs/grad-3.jpg?raw=true"/>
 </p>
-#### [2]
+#### [prob: 2]
 <p align="center">
   <img width="600"src="https://github.com/astro7x/OptMat/blob/master/imgs/prob2.png?raw=true"/>
 </p>
