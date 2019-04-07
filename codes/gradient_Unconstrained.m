@@ -1,6 +1,6 @@
 clear all, close all;
 
-%% EXCER 4
+%% problem [1]
 %******************************************************************
 % minimize: 3x12 +3x2 +3x32 +3x42 −4x1x3 −4x2x4 +x1 −x2 +2x3 −3x4
 % @NO CONSTRAINTS
