@@ -16,7 +16,7 @@
   <img src="https://github.com/astro7x/OptMat/blob/master/imgs/grad.jpg?raw=true"/>
 </p>
 
-> we nee to minimize the functuin f(x) over the half line (x+td) [LINE SEARCH]
+> we nee to minimize the function f(x) over the half line (x+td) [LINE SEARCH]
 
 > Always take a direction which is opposite to the gradient
 
@@ -55,3 +55,13 @@ Solve the problem by means of the gradient method starting from:
 <p align="center">
   <img width= "600" src="https://github.com/astro7x/OptMat/blob/master/imgs/prob3.png?raw=true"/>
 </p>
+
+
+#### [prob: 5]
+##### Solve the same previous problem With the Newton Method
+
+<p align="center">
+  <img width= "600" src="https://github.com/astro7x/OptMat/blob/master/imgs/newton.png?raw=true"/>
+</p>
+
+
